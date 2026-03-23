@@ -181,7 +181,7 @@ def check_eligibility(inputs: dict, api_key: str) -> dict:
 Assess eligibility and respond in the exact JSON format specified."""
 
     response = client.chat.completions.create(
-        model="google/gemma-3-12b-it:free",
+        model="arcee-ai/trinity-large-preview:free",
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": user_message}
@@ -206,7 +206,7 @@ def chat_faq(messages: list, api_key: str) -> str:
     base_url="https://openrouter.ai/api/v1"
 )
     response = client.chat.completions.create(
-        model="google/gemma-3-12b-it:free",
+        model="arcee-ai/trinity-large-preview:free",
         messages=[{"role": "system", "content": FAQ_SYSTEM_PROMPT}] + messages,
         temperature=0.3,
         max_tokens=400

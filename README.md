@@ -1,6 +1,6 @@
 # 🏦 LoanBot — AI Personal Loan Eligibility Assistant
 
-Built by Bontalakoti T Sai Teja | Ex-Axis Bank PM | IIM Ranchi MBA
+Built by B T Sai Teja
 
 ## What It Does
 LoanBot is an AI-powered personal loan eligibility assistant that:

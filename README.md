@@ -14,7 +14,7 @@ LoanBot is an AI-powered personal loan eligibility assistant that:
 Managing a ₹35,000 Cr personal loan portfolio at Axis Bank, I saw that 40%+ of RM bandwidth was spent answering repetitive eligibility queries that are entirely rule-based. LoanBot automates this — freeing relationship managers for high-value conversion conversations.
 
 ## Tech Stack
-- **LLM:** OpenAI GPT-4o-mini
+- **LLM:** Arcee-ai trinity-large
 - **Framework:** Streamlit
 - **Language:** Python
 - **Prompt Engineering:** Chain-of-thought + structured JSON output + hallucination guardrails
